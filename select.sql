@@ -4,3 +4,6 @@ VALUES ('sajib', 'sajib1234');
 
 SELECT * FROM "user"
 WHERE username = 'user5' AND PASSWORD = 'user5';
+
+SELECT * FROM "user"
+WHERE username IS NULL
